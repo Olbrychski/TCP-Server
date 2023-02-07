@@ -27,10 +27,13 @@ $ cd TCP-Server
 $ virtualenv venv 
 $ source venv/bin/activate 
 $ python TCP_server.py  [IP ADDRESS]
-$ python client.py  [SERVER IP ADDRESS] 
+
 ```
 
-> NOTE: Replace  ```('HOST_IP_ADDRESS', PORT)``` with actual host IP address and port to be used before running TCP_server.py
+Run client
+```
+$ python client.py  [SERVER IP ADDRESS] 
+```
 
 ### Configuration
 The maximum number of clients that the server can accept is set by the variable N at the beginning of the code. This variable can be modified to change the maximum number of clients that the server can accept.
