@@ -26,8 +26,8 @@ $ git clone https://github.com/Olbrychski/TCP-Server
 $ cd TCP-Server
 $ virtualenv venv 
 $ source venv/bin/activate 
-$ python TCP_server.py  ```[IP ADDRESS]```
-$ python client.py ```[SERVER IP ADDRESS]``` 
+$ python TCP_server.py  [IP ADDRESS]
+$ python client.py  [SERVER IP ADDRESS] 
 ```
 
 > NOTE: Replace  ```('HOST_IP_ADDRESS', PORT)``` with actual host IP address and port to be used before running TCP_server.py
