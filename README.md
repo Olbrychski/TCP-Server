@@ -45,7 +45,7 @@ The maximum number of clients that the server can accept is set by the variable 
 
  * When a client sends a command to the server, it checks if the client has permission to execute the command based on their  rank. If a client has a lower rank, they can execute a command from a higher rank client.
 
- * If a client disconnects, the server re-adjusts the ranks and promotes any client that needs to be promoted to prevent gaps in the ranks.
+ * If a client disconnects , the server re-adjusts the ranks and promotes any client that needs to be promoted to prevent gaps in the ranks.
 
  * The server continues to listen for new connections and handle the commands from the connected clients.
 
